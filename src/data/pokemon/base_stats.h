@@ -5964,13 +5964,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-<<<<<<< HEAD
-        .abilities = {ABILITY_STURDY, ABILITY_KEEN_EYE},
-        .safariZoneFleeRate = 0,
-=======
         .abilities = {ABILITY_KEEN_EYE, ABILITY_STURDY},
         .abilityHidden = ABILITY_WEAK_ARMOR,
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
@@ -8389,22 +8384,11 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 95,
         .baseSpAttack  = 95,
         .baseSpDefense = 40,
-<<<<<<< HEAD
-        .type1 = TYPE_NORMAL,
-        .type2 = TYPE_FAIRY,
-        .catchRate = 150,
-        .expYield = 33,
-        .evYield_HP        = 1,
-        .evYield_Attack    = 0,
-        .evYield_Defense   = 0,
-        .evYield_Speed     = 0,
-=======
         .type1 = TYPE_WATER,
         .type2 = TYPE_DARK,
         .catchRate = 60,
         .expYield = 161,
         .evYield_Attack    = 2,
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
         .evYield_SpAttack  = 0,
         .item2 = ITEM_DEEP_SEA_TOOTH,
         .genderRatio = PERCENT_FEMALE(50),
@@ -8526,20 +8510,6 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 70,
         .baseAttack    = 85,
-<<<<<<< HEAD
-        .baseDefense   = 85,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 55,
-        .baseSpDefense = 55,
-        .type1 = TYPE_STEEL,
-        .type2 = TYPE_FAIRY,
-        .catchRate = 45,
-        .expYield = 98,
-        .evYield_HP        = 0,
-        .evYield_Attack    = 1,
-        .evYield_Defense   = 1,
-        .evYield_Speed     = 0,
-=======
         .baseDefense   = 140,
         .baseSpeed     = 20,
         .baseSpAttack  = 85,
@@ -8549,7 +8519,6 @@ const struct BaseStats gBaseStats[] =
         .catchRate = 90,
         .expYield = 165,
         .evYield_Defense   = 2,
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
         .evYield_SpAttack  = 0,
         .item2 = ITEM_CHARCOAL,
         .genderRatio = PERCENT_FEMALE(50),
@@ -22939,26 +22908,6 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ALOLAN_PERSIAN] =
     {
-<<<<<<< HEAD
-        .baseHP        = 28,
-        .baseAttack    = 25,
-        .baseDefense   = 25,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 35,
-        .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_FAIRY,
-        .catchRate = 235,
-        .expYield = 70,
-        .evYield_HP        = 0,
-        .evYield_Attack    = 0,
-        .evYield_Defense   = 0,
-        .evYield_Speed     = 0,
-        .evYield_SpAttack  = 1,
-        .evYield_SpDefense = 0,
-        .item1 = ITEM_NONE,
-        .item2 = ITEM_NONE,
-=======
         .baseHP        = 65,
         .baseAttack    = 60,
         .baseDefense   = 60,
@@ -22972,7 +22921,6 @@ const struct BaseStats gBaseStats[] =
         .evYield_Speed     = 2,
         .evYield_SpAttack  = 0,
         .item2 = ITEM_QUICK_CLAW,
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
@@ -22987,26 +22935,6 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ALOLAN_GEODUDE] =
     {
-<<<<<<< HEAD
-        .baseHP        = 38,
-        .baseAttack    = 35,
-        .baseDefense   = 35,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 65,
-        .baseSpDefense = 55,
-        .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_FAIRY,
-        .catchRate = 120,
-        .expYield = 140,
-        .evYield_HP        = 0,
-        .evYield_Attack    = 0,
-        .evYield_Defense   = 0,
-        .evYield_Speed     = 0,
-        .evYield_SpAttack  = 2,
-        .evYield_SpDefense = 0,
-        .item1 = ITEM_NONE,
-        .item2 = ITEM_NONE,
-=======
         .baseHP        = 40,
         .baseAttack    = 80,
         .baseDefense   = 100,
@@ -23020,7 +22948,6 @@ const struct BaseStats gBaseStats[] =
         .evYield_Defense   = 1,
         .evYield_SpAttack  = 0,
         .item2 = ITEM_CELL_BATTERY,
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = 70,
@@ -23035,26 +22962,6 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ALOLAN_GRAVELER] =
     {
-<<<<<<< HEAD
-        .baseHP        = 68,
-        .baseAttack    = 65,
-        .baseDefense   = 65,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 125,
-        .baseSpDefense = 115,
-        .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_FAIRY,
-        .catchRate = 45,
-        .expYield = 208,
-        .evYield_HP        = 0,
-        .evYield_Attack    = 0,
-        .evYield_Defense   = 0,
-        .evYield_Speed     = 0,
-        .evYield_SpAttack  = 3,
-        .evYield_SpDefense = 0,
-        .item1 = ITEM_NONE,
-        .item2 = ITEM_NONE,
-=======
         .baseHP        = 55,
         .baseAttack    = 95,
         .baseDefense   = 115,
@@ -23068,7 +22975,6 @@ const struct BaseStats gBaseStats[] =
         .evYield_Defense   = 2,
         .evYield_SpAttack  = 0,
         .item2 = ITEM_CELL_BATTERY,
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = 70,
