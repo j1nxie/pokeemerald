@@ -72,10 +72,7 @@
 #define Q_4_12_ROUND ((1) << (12 - 1))
 #define UQ_4_12_ROUND ((1) << (12 - 1))
 
-#define POKEMON_SLOTS_NUMBER 412
-=======
 #define POKEMON_SLOTS_NUMBER 808
->>>>>>> ff5fc9785982033d42102c8aec6b60da2cf02557
 
 #define min(a, b) ((a) < (b) ? (a) : (b))
 #define max(a, b) ((a) >= (b) ? (a) : (b))
