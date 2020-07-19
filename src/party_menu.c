@@ -2704,7 +2704,7 @@ static void CursorCb_Summary(u8 taskId)
 }
 
 void ChangePokemonNickname(void);
-static void CursorCb_Nickname(u8 TaskId)
+static void CursorCb_Nickname(u8 taskId)
 {
     PlaySE(SE_SELECT);
     gSpecialVar_0x8004 = gPartyMenu.slotId;
