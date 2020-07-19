@@ -1642,7 +1642,7 @@ static void Task_HandleInput(u8 taskId)
 		BufferIvOrEvStats(1);
 	    }
 	}
-	else if (gMain.NewKeys & START_BUTTON)
+	else if (gMain.newKeys & START_BUTTON)
 	{
 	    if (sMonSummaryScreen->currPageIndex == PSS_PAGE_SKILLS)
 	    {
