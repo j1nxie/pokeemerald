@@ -5606,6 +5606,21 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
         }
         break;
     case 2:
+	for (i = 0; i < EVOS_PER_MON; i++)
+	{
+	    switch (gEvolutionTable[species][i].method)
+	    {
+	    case EVO_HELD_ITEM:
+		if (gEvolutionTable[species][i].param == evolutionItem && gEvolutionTable[species][i].param2 == heldItem)
+		{
+		    heldItem = 0;
+		    SetMonData(mon, MON_DATA_HELD_ITEM, &heldItem);
+		    targetSpecies = gEvolutionTable[species][i].targetSpecies;
+		}
+		break;
+	    }
+	}
+	break;
     case 3:
         for (i = 0; i < EVOS_PER_MON; i++)
         {
